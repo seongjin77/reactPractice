@@ -1,13 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import HH from './MyHeader';
-import Counter from './Counter';
+import DiaryEditor from './DiaryEditor';
 
 function App() {
   return (
     <div className="App">
-      <HH/>
-      <Counter/>
+      <DiaryEditor/>
     </div>
   );
 }
